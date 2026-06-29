@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BiteExpress Menu - Tailwind CSS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50">
+
+    <div class="max-w-6xl mx-auto px-4 py-12">
+        <h2 class="text-3xl font-bold text-center mb-2 text-red-500">Chef's Special Menu</h2>
+        <p class="text-center text-gray-500 mb-10">Handcrafted dishes made with love and fresh ingredients.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <div class="bg-white rounded-xl shadow-md overflow-hidden flex flex-col transform hover:scale-[1.02] transition-transform duration-300">
+                <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500&auto=format&fit=crop" alt="Gourmet Burger" class="w-full h-56 object-cover">
+                <div class="p-6 flex flex-col flex-grow">
+                    <h5 class="text-xl font-semibold text-gray-800 mb-2">Classic Gourmet Burger</h5>
+                    <p class="text-gray-600 text-sm flex-grow">A juicy, flame-grilled beef patty topped with cheddar cheese, fresh lettuce, and our signature secret sauce.</p>
+                    <button class="mt-5 w-full bg-red-500 hover:bg-red-600 text-white font-medium py-2.5 px-4 rounded-lg transition-colors duration-300">Order Now</button>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-md overflow-hidden flex flex-col transform hover:scale-[1.02] transition-transform duration-300">
+                <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500&auto=format&fit=crop" alt="Pepperoni Pizza" class="w-full h-56 object-cover">
+                <div class="p-6 flex flex-col flex-grow">
+                    <h5 class="text-xl font-semibold text-gray-800 mb-2">Artisanal Pepperoni Pizza</h5>
+                    <p class="text-gray-600 text-sm flex-grow">Freshly baked sourdough crust topped with zesty marinara, mozzarella cheese, and premium spicy pepperoni.</p>
+                    <button class="mt-5 w-full bg-red-500 hover:bg-red-600 text-white font-medium py-2.5 px-4 rounded-lg transition-colors duration-300">Order Now</button>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-md overflow-hidden flex flex-col transform hover:scale-[1.02] transition-transform duration-300">
+                <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=500&auto=format&fit=crop" alt="Healthy Salmon Bowl" class="w-full h-56 object-cover">
+                <div class="p-6 flex flex-col flex-grow">
+                    <h5 class="text-xl font-semibold text-gray-800 mb-2">Fresh Salmon Salad Bowl</h5>
+                    <p class="text-gray-600 text-sm flex-grow">Pan-seared Atlantic salmon served over a bed of quinoa, organic mixed greens, avocados, and honey-dijon dressing.</p>
+                    <button class="mt-5 w-full bg-red-500 hover:bg-red-600 text-white font-medium py-2.5 px-4 rounded-lg transition-colors duration-300">Order Now</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
